@@ -1,0 +1,1 @@
+@"D:\private\projects\github\memo\win_env\Scripts\python.exe" "D:\private\projects\github\memo\win_env\Scripts\markdown_py" %*
