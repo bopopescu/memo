@@ -32,15 +32,82 @@ CREATE TABLE `mm_discussions` (
 
 /*Data for the table `mm_discussions` */
 
+/*Table structure for table `mm_inbox` */
+
+DROP TABLE IF EXISTS `mm_inbox`;
+
+CREATE TABLE `mm_inbox` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `todo` varchar(120) NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `mm_inbox` */
+
+/*Table structure for table `mm_invites` */
+
+DROP TABLE IF EXISTS `mm_invites`;
+
+CREATE TABLE `mm_invites` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `invite_code` char(32) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `used` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `mm_invites` */
+
+/*Table structure for table `mm_members` */
+
+DROP TABLE IF EXISTS `mm_members`;
+
+CREATE TABLE `mm_members` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `project_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `mm_members` */
+
+/*Table structure for table `mm_projects` */
+
+DROP TABLE IF EXISTS `mm_projects`;
+
+CREATE TABLE `mm_projects` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) DEFAULT NULL,
+  `intro` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `mm_projects` */
+
+/*Table structure for table `mm_teams` */
+
+DROP TABLE IF EXISTS `mm_teams`;
+
+CREATE TABLE `mm_teams` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `mm_teams` */
+
 /*Table structure for table `mm_users` */
 
 DROP TABLE IF EXISTS `mm_users`;
 
 CREATE TABLE `mm_users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `team_id` int(11) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL,
   `salt` char(10) NOT NULL,
+  `admin` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
