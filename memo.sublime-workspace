@@ -3,10 +3,70 @@
 	{
 		"selected_items":
 		[
+			[
+				"key",
+				"keywords"
+			],
+			[
+				"seq",
+				"seqname"
+			],
+			[
+				"param",
+				"paramstyle"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/code.py",
+			"settings":
+			{
+				"buffer_size": 447,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/web/application.py",
+			"settings":
+			{
+				"buffer_size": 23300,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/config/settings.py",
+			"settings":
+			{
+				"buffer_size": 243,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/config/urls.py",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/config/__init__.py",
+			"settings":
+			{
+				"buffer_size": 43,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/web/db.py",
+			"settings":
+			{
+				"buffer_size": 41095,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,6 +92,9 @@
 	},
 	"file_history":
 	[
+		"/D/private/projects/github/webpy/web/db.py",
+		"/D/private/projects/github/memo/src/__init__.py",
+		"/C/Users/xIkUg/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/D/private/projects/github/memo/src/web/application.py",
 		"/D/private/projects/github/memo/src/web/debugerror.py",
 		"/D/private/projects/github/memo/src/web/utils.py",
@@ -55,6 +118,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"threadeddict",
+			"_process_insert_query",
+			"MySQLDB",
 			"group",
 			"init_mapping",
 			"globals()"
@@ -75,8 +141,170 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/code.py",
+					"settings":
+					{
+						"buffer_size": 447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/web/application.py",
+					"settings":
+					{
+						"buffer_size": 23300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1002,
+								1002
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 35.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/config/settings.py",
+					"settings":
+					{
+						"buffer_size": 243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/config/urls.py",
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/config/__init__.py",
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/web/db.py",
+					"settings":
+					{
+						"buffer_size": 41095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32165,
+								32172
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14478.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -111,6 +339,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 0.0

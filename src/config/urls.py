@@ -2,10 +2,11 @@
 # coding: utf-8
 
 __all__ = [
-    "urls"
+    'urls'
 ]
 
-prefix = 'controllers.'
+#prefix = 'controllers.'
+prefix = ''
 
 
 urls = (
