@@ -43,25 +43,20 @@ input[type="password"] {
     <div class="form-sign">
       <form action="/login" method="post">
         <fieldset>
-          <input type="text" placeholder="登录邮箱" name="email" class="input-block-level">
-          <input type="password" placeholder="密码" name="password" class="input-block-level">
-          <button type="button" class="btn btn-large btn-success btn-block btn-primary">登录</button>
-          <div class="row space">
-            <div class="span2">
-              <label class="checkbox muted">
-                <input type="checkbox" name="autologin" checked="1"> 下次自动登录
-              </label>
-            </div>
-            <div class="pull-right">
-              <a href="/lost_pass" class="muted">忘记密码了？</a>
-            </div>
-          </div>
+          <input type="text" placeholder="公司名称或团队名称" name="team_name" class="input-block-level">
+          <input type="text" placeholder="你的邮箱地址" name="email" class="input-block-level">
+          <input type="password" placeholder="设置一个密码" name="password" class="input-block-level">
+          <button type="button" class="btn btn-large btn-success btn-block btn-primary">注册</button>
         </fieldset>
       </form>
 
+      <p class="muted" align="center">
+        <small>点击注册表示您已阅读并同意<a href="/agreement" class="muted">《memo.pw 服务条款》</a></small>
+      </p>
+
       <hr>
       <p class="muted" align="center">
-        没有帐号？<a href="/sign_up">免费注册 →</a>
+        已有账号？<a href="/sign_up">立即登录 →</a>
       </p>
 
       <br />
