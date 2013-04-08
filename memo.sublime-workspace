@@ -66,6 +66,22 @@
 				"buffer_size": 41095,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "src/templates/login.html",
+			"settings":
+			{
+				"buffer_size": 1865,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/register.html",
+			"settings":
+			{
+				"buffer_size": 1747,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -141,7 +157,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -237,8 +253,8 @@
 						"selection":
 						[
 							[
-								147,
-								152
+								161,
+								168
 							]
 						],
 						"settings":
@@ -301,6 +317,62 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 14478.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/templates/login.html",
+					"settings":
+					{
+						"buffer_size": 1865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1828,
+								1828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/templates/register.html",
+					"settings":
+					{
+						"buffer_size": 1747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1378,
+								1378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 587.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
